@@ -57,3 +57,49 @@ Has Stylus: True
 Drawing on the screen with the stylus on your Galaxy Tab S7 tablet.
 
 Updated Price for iPhone 14: $1099
+
+
+# Moving Objects Program
+
+This Python program demonstrates **polymorphism** through a collection of animal and vehicle classes, each implementing their own version of the `move()` method. While each class shares the same method name (`move()`), each one defines its behavior differently to simulate various types of movement.
+
+### Key Concepts Covered:
+- **Polymorphism**: Different classes can implement a method with the same name (`move()`) but different behavior.
+- **Inheritance**: The base class `MovingObject` is inherited by subclasses like `Car`, `Plane`, `Dog`, `Fish`, and `Bird`.
+- **Method Overriding**: Each subclass overrides the `move()` method to provide its own unique implementation.
+
+## Classes
+
+### 1. `MovingObject` (Base Class)
+This is the base class that other classes inherit from. It defines an empty `move()` method, which is overridden in each subclass.
+
+### 2. `Car`
+- **Method**: `move()`
+- **Description**: Prints `"Driving 🚗"` to simulate car movement.
+
+### 3. `Plane`
+- **Method**: `move()`
+- **Description**: Prints `"Flying ✈️"` to simulate plane movement.
+
+### 4. `Dog`
+- **Method**: `move()`
+- **Description**: Prints `"Running 🐕"` to simulate a dog's movement.
+
+### 5. `Fish`
+- **Method**: `move()`
+- **Description**: Prints `"Swimming 🐟"` to simulate a fish's movement.
+
+### 6. `Bird`
+- **Method**: `move()`
+- **Description**: Prints `"Flying 🦅"` to simulate a bird's movement.
+
+## Example Usage
+
+### Sample Output:
+```plaintext
+Demonstrating move() for different objects:
+Driving 🚗
+Flying ✈️
+Running 🐕
+Swimming 🐟
+Flying 🦅
